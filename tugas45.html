@@ -1,0 +1,29 @@
+<!-- Tugas 45 Javascript -->
+<!-- Muhammad Rizwan -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas 45 Javascript</title>
+</head>
+<body>
+
+    <a href="/index.html">Ke Halaman 2</a>
+
+    <p id="hrefTugas">Ini Halaman 1</p>
+
+    <button onclick="tugas45()">Lihat href</button>
+
+    <script type="text/javascript">
+        function tugas45() {
+            var i = location.href;
+            document.getElementById("hrefTugas").innerHTML = i;
+        }
+    </script>
+    
+</body>
+</html>
